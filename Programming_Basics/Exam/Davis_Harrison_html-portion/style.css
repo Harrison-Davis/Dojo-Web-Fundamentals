@@ -1,0 +1,122 @@
+Shortcuts simplify My Drive … 
+In the coming weeks, items in more than one folder will be replaced by shortcuts. Access to files and folders won't change.Learn more
+style.css
+Who has access
+
+System properties
+Type
+Style Sheet
+Size
+770 bytes
+Storage used
+770 bytesOwned by Coding Dojo Inc.
+Location
+LEVEL1
+Owner
+Instructor Narciso Lobo
+Modified
+Feb 19, 2021 by Instructor Narciso Lobo
+Opened
+10:26 AM by me
+Created
+Feb 19, 2021
+No description
+Viewers can download
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    /* ADD A SANS SERIF DEFAULT FONT HERE */
+}
+
+body {
+    /* CHANGE THE BACKGROUND COLOR TO WHEAT */
+    background-color: wheat;
+    margin: 0px 15px 0px 15px;
+    font-family: sans-serif;
+}
+
+p,
+img {
+    margin-bottom: 20px;
+}
+
+#container {
+    width: 0 auto;     /* I delete height rule  */
+    margin: 0 auto;
+    background-color: white
+    
+
+    /* CHANGE THE BACKGROUND COLOR TO WHITE
+    AND ADD A LIGHT GREY BORDER ON THE LEFT AND RIGHT */
+}
+
+#container {
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-color: lightgrey;
+    border-right-color:lightgrey;
+}
+
+#header {
+    padding: 20px;
+    /* CHANGE THE TEXT COLOR TO WHITE AND
+    THE BACKGROUND COLOR SHOULD BE #79b5f1 */
+    color: white;
+    background-color: #79b5f1;
+    display: block;
+    ;
+}
+
+
+/* Here, I select both elements inside the header and remove the margin-block-start and margin-block-end space to make them sit closer together vertically.*/
+h1{
+    margin-block-start: 0em;   
+    margin-block-end:0em;
+}
+
+h2{
+    margin-top:0px;     
+    margin-bottom: 0px;
+}
+/*
+ASIDE AND MAIN MUST BE SIDE BY SIDE
+ADD THE CORRECT PROPERTIES TO THEIR RULE SETS
+*/
+
+aside {
+    width: 200px;
+    padding: 20px;
+    margin-left: 0px;
+    display: inline-block;  /* used inline-block to allow main to sit to the right of aside   */
+    position:relative;  /* Used position relative to move aside to the correct position below header.  */
+    bottom: 630px;
+    right: 30px;
+}
+
+main {
+    width: 640px;
+    padding: 20px;
+    display:inline-block;
+}
+
+p:first-child{
+    margin-block-start: 0em;  /*I used selector   <p>:first-child to select my first <p>. I set margin-block-start to 0. This took away space above "I don't like sand" */
+}
+
+#last-p{
+    margin-block-end: 2em;
+}
+/* I created an identifier for the last <p> to increase space from the end of the <p> to the bottom of the web page.   */
+
+#nav {
+    /* REMOVE THE BULLET POINTS */
+    list-style: none;
+    
+}
+
+#nav a {
+    /* REMOVE THE UNDERLINES */
+    text-decoration: none;
+}
