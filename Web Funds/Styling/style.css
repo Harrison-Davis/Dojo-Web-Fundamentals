@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    padding:5px;
+}
+
+
+span{
+    color: aqua;
+}
+
+h1{
+    color: white;
+    background-color: black;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+h2{
+    color: white;
+    background-color: blueviolet;
+    font-style: italic;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+h3{
+    color: black;
+    background-color: skyblue;
+    text-align: right;
+    text-decoration: underline;
+    margin: 5px;
+    padding: 5px;
+    padding-right: 15px;
+}
