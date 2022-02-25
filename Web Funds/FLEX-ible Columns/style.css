@@ -1,0 +1,31 @@
+
+
+.row{
+    display: flex;
+    align-content: center;
+    background-color: antiquewhite;
+}
+
+.col{
+    width: 10px;
+    height: 60px;
+    background-color: skyblue;
+    margin: 20px 5px;
+    flex: 1;  
+}
+
+.col-2{
+    width: 10px;
+    height: 60px;
+    background-color: skyblue;
+    margin: 20px 5px;
+    flex: 2;
+}
+
+.col-3{
+    width: 10px;
+    height: 60px;
+    background-color: skyblue;
+    margin: 20px 5px;
+    flex: 3;
+}
