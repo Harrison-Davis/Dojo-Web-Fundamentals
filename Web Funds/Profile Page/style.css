@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar CSS */
+.navbar{
+    width: 100%;
+    height: 7%;
+    background-image: linear-gradient(to right, black,lightgray);
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+}
+
+.navbarleft{
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.navbarleft h1{
+    font-size: 50px;
+    display: flex;
+    align-content: center;
+    margin-right: 20px;
+}
+
+
+.navlist{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.navbarright{
+    color: rgb(58, 91, 180);
+    display: flex;
+    align-items: center;
+}
+
+
+#signout{
+    text-decoration: none;
+    color: white; 
+    background-color: rgb(68, 112, 207);
+    padding: 5px 20px;
+    border: black solid 2px;
+    
+}
+
+/* NavBar CSS End */
+
+/* Main CSS Start */
+
+.main{
+    width: 1372px;
+    height: 93%;
+    background-color: rgb(229, 230, 231);
+    padding: 30px 100px 0px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+
+}
+
+.cols{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(229, 230, 231);
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+}
+
+.col-1{
+    width: 60%;
+    height: 100%;
+    background-color: (229, 230, 231);
+}
+
+.col-2{
+    width: 35%;
+    height: 100%;
+    background-color: (229, 230, 231);
+}
+/* Column Css End */
+
+/* Profile Css */
+
+.prof{
+    width: 100%;
+    height: 400px;
+    background-color: white ;
+    border: solid 2px lightgray;
+    border-radius: 10px;
+
+}
+
+
+.profhead{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(88, 135, 221);
+    border-radius: 10px;
+}
+
+.profhead img{
+    width: 80px;
+    height: 80px;
+    border: solid rgb(207, 192, 192) 2px;
+    border-radius: 50%;
+    position: relative;
+    left:30px;
+    top: 30px;
+}
+
+.profmain{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+
+.profmain h1{
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+
+.profmain .loc img{
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 14px;
+    height: 24px;
+}
+
+.profmain .loc h3{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 23px;
+    font-weight: 200;
+}
+
+.profmain .description{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 31px;
+    width: 50%;
+    font-size: 15;
+}
+
+
+.editprof{
+    display: block;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.profmain .editprof img{
+    height: 20px;
+    width: 20px;
+}
+
+.profmain .editprof a{
+    margin-left: 5px;
+
+}
+
+/* Prof CSS End */
+
+/* Education CSS */
+.edu{
+    margin-top: 40px;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    border: solid 2px  lightgray;
+    border-radius: 10px;
+}
+
+.eduhead{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(84, 88, 94);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.edumain{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+
+}
+
+.eduhead h2{
+    margin-left: 30px;
+    color: white;
+}
+
+.edumain h3{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.edumain p:first-of-type{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: gray;
+}
+.edumain p{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+/* Column 2 */
+.conn{
+    width: 100%;
+    height: 300px;
+    background-color: white ;
+    border: solid 2px lightgray;
+    border-radius: 10px;
+}
+
+.connhead{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(84, 88, 94);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.connhead img{
+    width: 30px;
+    height: 30px;
+    margin-left:30px;
+}
+
+.connhead h3{
+    margin-left: 15px;
+    color: white;
+}
+
+
+.connmain{
+    width: 100%;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+}
+
+.conmain .user{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    margin: 30px 0px 30px 20px;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+}
+
+.userimg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: rgb(209, 207, 207) solid 2px;
+}
+
+
+.yourconn{
+    margin-top: 40px;
+    width: 100%;
+    height: 400px;
+    background-color: white ;
+    border: solid 2px lightgray;
+    border-radius: 10px;
+}
+
+.yourconnhead{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(84, 88, 94);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.yourconnmain{
+    width: 100%;
+    background-color: white;
+}
+
+
+
+
+.yourconn img{
+    width: 30px;
+    height: 30px;
+    margin-left:30px;
+}
+
+.yourconnhead h3{
+    color: white;
+    margin-left: 20px;
+}
+
+.yourconnuser{
+    display: flex;
+    align-items: baseline;
+    height: 40px;
+    margin: 25px 0px 25px;
+}
+
+.yourconnuser img{
+    border: solid gray 2px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.yourconnuser h2{
+    font-weight: 400;
+}
+
+.viewmore{
+    border-top: solid lightgray 2px;
+    border-bottom: solid lightgray 2px;
+    height: 30px;
+    width: 100%;
+    background-color: white ;
+    display: flex;
+    align-items: center;
+}
